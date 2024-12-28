@@ -10,17 +10,17 @@ const servicesData =[
     {
         imgUrl :weatherImg,
         title : 'Calculate Weather',
-        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        desc: "Your Guide to Sunny Escapes and Stormy Adventures.",
     },
     {
         imgUrl :guideImg,
         title : 'Best Tour Guide',
-        desc : 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        desc : 'Guiding You to Unforgettable Journeys',
     },
     {
         imgUrl :customizationImg,
         title : 'Customization',
-        desc : 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        desc : 'Luxury Beyond Borders.',
     },
 ]
 const ServiceList = () => {

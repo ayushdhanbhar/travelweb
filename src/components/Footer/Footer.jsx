@@ -17,16 +17,12 @@ const quick__links=[
   {
     path:'/tours',
     display:'Tours'
-  },
-  {
-    path:'/loaction',
-    display:'location'
-  },
-
+  }, 
+  
 ];
 const quick__links2=[
   {
-    path:'/gallery',
+    path:'/galleryImages',
     display:'Gallery'
   },
   {
@@ -104,7 +100,7 @@ const Footer = () => {
       <span><i class="ri-map-pin-line"></i></span>
       Address:
     </h6>
-    <p className='mb-0'>Haveli ,nigdi</p>
+    <p className='mb-0'>Haveli,nigdi</p>
       </ListGroupItem>
   
       <ListGroupItem className='ps-0 border-0 d-flex align-items-center gap-3'>

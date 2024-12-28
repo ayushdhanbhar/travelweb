@@ -4,7 +4,6 @@ import { Container,Row,Col } from 'reactstrap'
 import worldImg from '../assets/images/world.png'
 import heroImg from '../assets/images/hero-img01.jpg'
 import heroImg02 from '../assets/images/hero-img02.jpg'
-import heroVideo from '../assets/images/hero-video.mp4'
 import experienceImg from '../assets/images/experience.png'
 import Subtitle from '../shared/Subtitle'
 import SearchBar from '../shared/SearchBar'
@@ -13,6 +12,7 @@ import FeaturedTourList from '../components/Featured-tours/FeaturedTourList'
 import MasonryImagesGallery from '../components/image-gallery/MasonryImagesGallery'
 import Testimonials from '../components/Testimonial/Testimonials'
 import Newsletter from '../shared/Newsletter'
+import heroVideo1 from '../assets/images/hero-video1.mp4'
 
 const Home = () => {
   return (
@@ -37,7 +37,7 @@ const Home = () => {
         </Col>
         <Col lg="2">
         <div className="hero__img-box mt-4">
-          <video src={heroVideo} alt="" controls/>
+          <video src={heroVideo1} alt="" controls/>
         </div>
         </Col>
         <Col lg="2">

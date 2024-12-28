@@ -8,6 +8,7 @@ const Layout = () => {
    <Header/>
       <Routers/>
       <Footer/>
+      <gallaryImages/>
     </>
   )
 }
