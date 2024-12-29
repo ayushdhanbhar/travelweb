@@ -30,6 +30,7 @@ const tours = [
     photo: tourImg01,
     featured: true,
   },
+
   {
     id: "02",
     title: "Bali, Indonesia",
@@ -49,6 +50,7 @@ const tours = [
     photo: tourImg02,
     featured: true,
   },
+
   {
     id: "03",
     title: "Snowy Mountains...Thailand",
@@ -68,6 +70,7 @@ const tours = [
     photo: tourImg03,
     featured: true,
   },
+
   {
     id: "04",
     title: "Beautiful Sunrise, Thailand",
@@ -87,6 +90,7 @@ const tours = [
     photo: tourImg04,
     featured: true,
   },
+
   {
     id: "05",
     title: "Nusa Pendia Bali, Indonesia",
@@ -106,6 +110,7 @@ const tours = [
     photo: tourImg05,
     featured: false,
   },
+  
   {
     id: "06",
     title: "Cherry Blossoms Spring",
@@ -125,6 +130,7 @@ const tours = [
     photo: tourImg06,
     featured: false,
   },
+  
   {
     id: "07",
     title: "Holmen Lofoten",
@@ -144,6 +150,7 @@ const tours = [
     photo: tourImg07,
     featured: false,
   },
+
   {
     id: "08",
     title: "Snowy Mountains, Thailand",
@@ -163,7 +170,6 @@ const tours = [
     photo: tourImg03,
     featured: false,
   },
-
 ];
 
 export default tours;

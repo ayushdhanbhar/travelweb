@@ -17,7 +17,7 @@ import galleryImg18 from '../../assets/images/gallery-18.jpg'
 import galleryImg19 from '../../assets/images/gallery-19.jpg'
 const galleryImages =[
     galleryImg01,
-    galleryImg19,
+    galleryImg07,
     galleryImg02,
     galleryImg06,
     galleryImg03,
@@ -27,11 +27,12 @@ const galleryImages =[
     galleryImg09,
     galleryImg11,
     galleryImg12,
-    galleryImg07,
+    galleryImg19,
     galleryImg16,
     galleryImg17,
     galleryImg18,
-    galleryImg13
+    galleryImg13,
+    galleryImg15
 ];
 
 export default galleryImages;
