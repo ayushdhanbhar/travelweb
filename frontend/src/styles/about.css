@@ -4,13 +4,23 @@
   color: #333;
   line-height: 1.6;
 }
-
+p {
+ font-size: 1.2rem;
+}
 .about-us h3 {
   text-align: center;
   animation: fadeIn 2s ease-in-out;
   font-weight: 700;
   font-size: 2.5rem;
   color: #2c3e50;
+}
+.about-us h3::after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #3498db;
+  margin: 10px auto 0;
 }
 
 .about-us p.lead {
@@ -122,4 +132,56 @@
 
 .about-us .btn:hover {
   background-color: #2980b9;
+}
+h3 span{
+  color: var(--secondary-color);
+}
+/* Vision and Mission Styling */
+.about-us .vision-mission {
+  text-align: center;
+  margin: 50px 0;
+}
+.about-us .vision-mission {
+  border: 2px solid #3498db;
+  padding: 20px;
+  border-radius: 10px;
+}
+.about-us .vision-mission h2 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.about-us .vision-mission p {
+  font-size: 1.2rem;
+  color: #4c5050;
+  max-width: 800px;
+  margin: 0 auto 20px auto;
+  line-height: 1.6;
+}
+
+.about-us .vision-mission .icon {
+  font-size: 3rem;
+  color: #3498db;
+  margin-bottom: 20px;
+}
+
+.about-us .vision-mission .icon-box {
+  border: none;
+  background: none;
+  margin-bottom: 0;
+}
+
+.about-us .vision-mission .icon-box i {
+  font-size: 3rem;
+  color: #3498db;
+}
+
+h3{
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #ee6e6e;
+}
+.one {
+  font-family: none;
 }
