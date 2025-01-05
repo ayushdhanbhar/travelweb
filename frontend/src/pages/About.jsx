@@ -3,6 +3,7 @@ import '../styles/about.css'
 import world2Img from '../assets/images/world2.jpg'
 import memorableImg from '../assets/images/memorable.jpg' 
 import guideImg from '../assets/images/guide.jpeg'
+import Newsletter from '../shared/Newsletter'
 const About = () => {
   return (
     <>
@@ -72,38 +73,7 @@ const About = () => {
       </div>
     </div>
   </section>
-  <section className="testimonials py-5 bg-light">
-    <div className="container">
-      <h3 className="mb-4 text-center">What Our Clients Say</h3>
-      <div className="row">
-        <div className="col-md-4">
-          <div className="testimonial">
-            <p className="text-muted">
-              "Wanderlust Adventures made our honeymoon unforgettable. The destinations were breathtaking and the service was impeccable."
-            </p>
-            <h5 className="mt-3">- Sarah & John</h5>
-          </div>
-        </div>
-        <div className="col-md-4">
-          <div className="testimonial">
-            <p className="text-muted">
-              "A seamless travel experience from start to finish. Highly recommend Wanderlust Adventures for anyone looking to explore new places."
-            </p>
-            <h5 className="mt-3">- Emily R.</h5>
-          </div>
-        </div>
-        <div className="col-md-4">
-          <div className="testimonial">
-            <p className="text-muted">
-              "The best travel agency we've ever used. The team was knowledgeable and helped us plan the perfect vacation."
-            </p>
-            <h5 className="mt-3">- Michael B.</h5>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
+  <Newsletter/>
   </>
   );
 };

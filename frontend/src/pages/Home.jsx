@@ -2,7 +2,6 @@ import React from 'react'
 import '../styles/home.css'
 import { Container,Row,Col } from 'reactstrap'
 import worldImg from '../assets/images/world.png'
-import heroImg from '../assets/images/hero-img01.jpg'
 import heroImg02 from '../assets/images/hero-img02.jpg'
 import experienceImg from '../assets/images/experience.png'
 import Subtitle from '../shared/Subtitle'
@@ -27,7 +26,10 @@ const Home = () => {
           </div>
           <h1>Traveling opens the door to creating <span className="highlight">
             memories</span></h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi ut voluptatum quisquam error facilis eum rerum, ratione accusamus molestias fugiat consequatur repellendus pariatur numquam ea dolor! Eligendi sunt ab nostrum?</p>
+            <p>"🌟 Wander the world, where dreams take flight, <br />
+✈️ Chase new horizons, from dawn to night. <br />
+📍 Every step, a story to unfold, <br />
+🌍 Travel far — your adventure is gold!"</p>
         </div>
         </Col>
         <Col lg="2">
@@ -79,9 +81,9 @@ const Home = () => {
           <div className="experience__countent">
           <Subtitle subtitle={'Experience'}/> 
         <h2 >With our all experience <br/> we will serve you </h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-          <br />
-           Quam veniam eveniet voluptate voluptatibus.</p>
+        <p>
+"With years of experience 🌐, we’re dedicated to serving you 🤝. <br />
+Let us guide your journey ✈️, creating memories that last forever 🌟!".</p>
            <div className="counter__wrapper d-flex align-items-center gap-5">
             <div className="counter__box">
               <span>12K+</span>
