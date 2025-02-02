@@ -37,7 +37,7 @@ export const getAllBooking = async(req,res)=>{
         res
         .status(200)
         .json({
-            success:true,
+               success:true,
             message:'booking found',
             data:books,})
     } catch (err) {
