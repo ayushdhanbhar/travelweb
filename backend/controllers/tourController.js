@@ -53,6 +53,7 @@ export const deleteTour = async(req,res)=>{
 
         await Tour.findByIdAndDelete(id)
 
+        
         res.status(200).json({
             success:true,
             message:'Successfully deleted',
