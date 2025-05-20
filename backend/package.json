@@ -1,4 +1,7 @@
 {
+   "engines": {
+    "node": "23.4.0"
+  },
   "name": "backend",
   "version": "1.0.0",
   "type": "module",
